@@ -8,21 +8,23 @@
 - Challenges We Faced
 - How to Run
 - Tech Stack
+
 Team
 🎯 Introduction
 In an era where businesses receive massive volumes of emails and documents daily, efficient sorting, prioritization, and routing remain critical challenges. Our hackathon invites tech enthusiasts, developers, and AI innovators to build a Gen AI-powered Orchestrator—a system that intelligently classifies, prioritizes, and routes emails and documents based on context, urgency, and intent.
 
 Our Models will leverage cutting-edge AI models to design solutions that can:
 
-✅ Analyze content to extract key insights and classify emails/documents.
-✅ Prioritize based on urgency, sentiment, and business rules.
-✅ Route efficiently to the right teams or workflows, reducing manual intervention.
+- ✅ Analyze content to extract key insights and classify emails/documents.
+- ✅ Prioritize based on urgency, sentiment, and business rules.
+- ✅ Route efficiently to the right teams or workflows, reducing manual intervention.
+
 🎥 Demo
+
 🔗 Live Demo (if applicable)
 📹 Video Demo (if applicable)
 🖼️ Screenshots:
 
-Screenshot 1
 
 💡 Inspiration
 The inspiration for this project stems from the growing challenge organizations face in managing vast amounts of incoming emails and documents. In today's fast-paced business environment, teams are overwhelmed with unstructured information, leading to delays, inefficiencies, and missed priorities. Traditional rule-based automation systems struggle to keep up with dynamic workflows, requiring a more intelligent, adaptable solution
@@ -33,19 +35,20 @@ The Gen AI Orchestrator is an intelligent system that automates the triage, clas
 🛠️ How We Built It
 Our Gen AI Orchestrator was built using a combination of advanced AI models, cloud-based automation, and seamless integrations with existing business tools. Here’s a breakdown of the key components and technologies we used:
 
-AI & NLP Models – OpenAI’s GPT
-Text Processing & Classification - Java Spring Boot
-Email & Document Parsing – Tika apache
-API Integrations – document management tool.
+- AI & NLP Models – OpenAI’s GPT
+- Text Processing & Classification - Java Spring Boot
+- Email & Document Parsing – Tika apache
+- API Integrations – document management tool.
+
 🚧 Challenges We Faced
 Here are some key obstacles we encountered and how we tackled them:
-
-Handling Noisy & Unstructured Data
-Ensuring High Accuracy in Classification & Routing
-Balancing Automation & Human Oversight
-Real-Time Processing at Scale
-Integration with Existing Tools & Systems
-Continuous Learning & Model Improvement
+- Handling Noisy & Unstructured Data
+- Ensuring High Accuracy in Classification & Routing
+- Balancing Automation & Human Oversight
+- Real-Time Processing at Scale
+- Integration with Existing Tools & Systems
+- Continuous Learning & Model Improvement
+  
 🏃 How to Run
 Clone the repository
 git clone https://github.com/ewfx/gaied-gen-ai-tech-ninjas.git
