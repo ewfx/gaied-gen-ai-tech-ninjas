@@ -1,5 +1,7 @@
-🚀 **GENAITECHNINJAS**
-📌 Table of Contents
+#### 🚀 **GENAITECHNINJAS**
+
+📌 **Table of Contents**
+
 - Introduction
 - Demo
 - Inspiration
