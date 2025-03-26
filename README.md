@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 GENAITECHNINJAS
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -56,5 +56,8 @@ Describe the major technical or non-technical challenges your team encountered.
 - 🔹 Other: OpenAI API / Twilio / Stripe
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Ajay Bharadwaj** - [GitHub](#) | [LinkedIn](#)
+- **Batthala Sowmya** - [GitHub](#) | [LinkedIn](#)
+- **Karri Vasudha** - [GitHub](#) | [LinkedIn](#)
+- **Sunkara Sowmya** - [GitHub](#) | [LinkedIn](#)
+- **Gudikandula Swapna** - [GitHub](#) | [LinkedIn](#)
