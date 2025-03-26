@@ -1,13 +1,13 @@
 🚀 GENAITECHNINJAS
 📌 Table of Contents
-Introduction
-Demo
-Inspiration
-What It Does
-How We Built It
-Challenges We Faced
-How to Run
-Tech Stack
+- Introduction
+- Demo
+- Inspiration
+- What It Does
+- How We Built It
+- Challenges We Faced
+- How to Run
+- Tech Stack
 Team
 🎯 Introduction
 In an era where businesses receive massive volumes of emails and documents daily, efficient sorting, prioritization, and routing remain critical challenges. Our hackathon invites tech enthusiasts, developers, and AI innovators to build a Gen AI-powered Orchestrator—a system that intelligently classifies, prioritizes, and routes emails and documents based on context, urgency, and intent.
