@@ -106,8 +106,8 @@ public class EmailExtractionService {
                     String savedPath = attachPath + part.getFileName();
                     System.out.println("Saved: " + savedPath);
                     saveAttachment(attachmentStream, savedPath);
-                    String content = extractAttachmentContent(savedPath);
-                    emailDto.setEmailContent(content);
+                    String encodedString = extractAttachmentContent(savedPath);
+                    emailDto.setEmailContent(new String(Base64.getDecoder().decode(encodedString)));
                     hasAttachments = true;
                 } else if (contentType != null && contentType.toLowerCase().startsWith("application")) {
                     System.out.println("Possible attachment (no disposition): " + part.getFileName());
@@ -145,6 +145,7 @@ public class EmailExtractionService {
         } else if (mimeType.contains("pdf") || mimeType.contains("msword")) {
             // Encode binary files (PDF, DOCX) as Base64
             return Base64.getEncoder().encodeToString(fileBytes);
+
         } else {
             return "[Unsupported file type: " + mimeType + "]";
         }
