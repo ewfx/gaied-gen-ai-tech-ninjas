@@ -25,6 +25,7 @@ public class EmailHuggingFaceApi {
 
     private PropertiesUtil propertiesUtil;
 
+
     public EmailHuggingFaceApi(PropertiesUtil propertiesUtil) {
         this.propertiesUtil = propertiesUtil;
     }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wellsfargo.email.ai.EmailProcessApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-26T06:53:26" hostname="DESKTOP-I5PCOM0" time="2.828">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.wellsfargo.email.ai.EmailProcessApplicationTests" time="2.828"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+12:23:22.726 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.wellsfargo.email.ai.EmailProcessApplicationTests]: EmailProcessApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:23:22.857 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.wellsfargo.email.ai.EmailProcessApplication for test class com.wellsfargo.email.ai.EmailProcessApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-03-26T12:23:23.900+05:30  WARN 6948 --- [demo] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Hi/.gradle/caches/modules-2/files-2.1/org.json/json/20231013/e22e0c040fe16f04ffdb85d851d77b07fc05ea52/json-20231013.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Hi/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-03-26T12:23:23.944+05:30  INFO 6948 --- [demo] [    Test worker] c.w.e.ai.EmailProcessApplicationTests    : Starting EmailProcessApplicationTests using Java 17.0.14 with PID 6948 (started by Hi in C:\Users\Hi\Desktop\Workspace\Hackathon)
+2025-03-26T12:23:23.944+05:30  INFO 6948 --- [demo] [    Test worker] c.w.e.ai.EmailProcessApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-03-26T12:23:25.093+05:30  INFO 6948 --- [demo] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fab68f5b-4fe2-33d8-929b-13a6921a11d6
+2025-03-26T12:23:26.047+05:30  INFO 6948 --- [demo] [    Test worker] c.w.e.ai.EmailProcessApplicationTests    : Started EmailProcessApplicationTests in 2.905 seconds (process running for 4.992)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
